@@ -5,9 +5,9 @@ class Solution {
         if (S == null || S.equals("")) {
             return 0;
         }
-	    char[] inputCharArray = S.toCharArray();
-	    // In palindrome can be only one character that appears just once: the one in the middle of the word. 
-	    boolean oddCharacterUsed = false;
+	char[] inputCharArray = S.toCharArray();
+	// In palindrome can be only one character that appears just once: the one in the middle of the word. 
+	boolean oddCharacterUsed = false;
         ArrayList<Character> checkedChars = new ArrayList<Character>();
     	char c;
         // Loop through al the characters
